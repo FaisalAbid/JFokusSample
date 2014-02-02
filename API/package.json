@@ -1,0 +1,10 @@
+{
+  "name": "jfokus",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~3.4.8",
+    "rethinkdb": "~1.11.0-4",
+    "generic-pool": "~2.0.4",
+    "debug": "~0.7.4"
+  }
+}
