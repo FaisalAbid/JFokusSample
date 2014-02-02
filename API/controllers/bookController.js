@@ -25,8 +25,9 @@ module.exports.setup = function (app) {
     });
 
 
-    app.post("/book", function (req, res) {
+    app.post("/books", function (req, res) {
         db.get(function (err, conn) {
+            db.release();
             if (err) {
                 return res.send(err);
             }

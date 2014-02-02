@@ -12,6 +12,10 @@ angular.module('jfokusApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/add', {
+        templateUrl: 'views/add.html',
+        controller: 'AddCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

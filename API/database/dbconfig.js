@@ -1,5 +1,5 @@
 module.exports.dbConfig = {
-    'host': 'dynamatik.io',
+    'host': 'localhost',
     'port': 28015,
     'db': 'jfokusbooks'
 };

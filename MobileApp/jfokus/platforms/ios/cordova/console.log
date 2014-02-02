@@ -12,3 +12,10 @@ objc[19799]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2014-02-02 22:34:10.030 HelloWorld[19799:80b] Unlimited access to network resources
 2014-02-02 22:34:10.195 HelloWorld[19799:80b] Resetting plugins due to page load.
 2014-02-02 22:34:10.495 HelloWorld[19799:80b] Finished load of: file:///Users/FaisalAbid/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/23953A76-740E-4F48-A681-B26CC4534EB2/HelloWorld.app/www/index.html#/
+objc[24167]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-02-02 23:08:04.041 HelloWorld[24167:80b] Cannot find executable for CFBundle 0xa594bf0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-02-02 23:08:04.066 HelloWorld[24167:80b] Cannot find executable for CFBundle 0xa9bf680 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-02-02 23:08:04.121 HelloWorld[24167:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-02 23:08:04.154 HelloWorld[24167:80b] Unlimited access to network resources
+2014-02-02 23:08:04.523 HelloWorld[24167:80b] Resetting plugins due to page load.
+2014-02-02 23:08:04.756 HelloWorld[24167:80b] Finished load of: file:///Users/FaisalAbid/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/23953A76-740E-4F48-A681-B26CC4534EB2/HelloWorld.app/www/index.html#/

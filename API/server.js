@@ -5,18 +5,30 @@ var server = require('http').createServer(app);
 var db = require("./database/db").setup();
 var controllerFiles = fs.readdirSync('controllers');
 
+//CORS middleware
+var allowCrossDomain = function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', "*");
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+
+    next();
+}
+
 app.configure(function () {
     app.set('port', process.env.PORT || 3000);
     app.set('views', __dirname + '/views');
     app.use(express.cookieParser());
+    app.use(express.bodyParser());
     app.use(express.logger('dev'));
     app.use(express.methodOverride());
+    app.use(allowCrossDomain);
     app.use(app.router);
 });
 
 app.configure('development', function () {
     app.use(express.errorHandler());
 });
+
 
 controllerFiles.forEach(function (controllerFile) {
     if (controllerFile.indexOf('.js') === -1) {
